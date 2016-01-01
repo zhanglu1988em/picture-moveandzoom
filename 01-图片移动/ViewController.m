@@ -70,12 +70,36 @@ typedef enum
         default:
             break;
     }
-    
-    
-    
     self.image.frame = frame;
 
 }
+
+#pragma mark 放大缩小
+- (IBAction)zoom:(UIButton *)sender {
+    //系统不建议通过frame 设置大小 可以通过设置bounds 修改
+  //  CGRect frame =  self.image.frame;
+    CGRect frame = self.image.bounds;
+    if (sender.tag == 5) {
+        frame.size.height += 20;
+        frame.size.width += 20;
+        
+    }else
+    {
+        frame.size.height-= 20;
+        frame.size.width -= 20;
+
+    }
+     //首位式动画
+    [UIView beginAnimations:nil context:nil];
+    [UIView setAnimationDuration:1.0];
+    self.image.bounds = frame;
+    [UIView commitAnimations];
+   
+    
+    
+        
+}
+
 
 
 @end
