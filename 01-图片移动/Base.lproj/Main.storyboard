@@ -22,28 +22,28 @@
                                 <state key="normal" image="top_normal"/>
                                 <state key="highlighted" image="top_highlighted"/>
                                 <connections>
-                                    <action selector="actionUp" destination="BYZ-38-t0r" eventType="touchUpInside" id="Dpt-A6-flK"/>
+                                    <action selector="move:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wPK-F0-Xxx"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ar3-ha-a3V">
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ar3-ha-a3V">
                                 <rect key="frame" x="69" y="349" width="40" height="40"/>
                                 <state key="normal" image="bottom_normal"/>
                                 <connections>
-                                    <action selector="actionDown" destination="BYZ-38-t0r" eventType="touchUpInside" id="Vid-AZ-Y0J"/>
+                                    <action selector="move:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7ZX-6j-ONR"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z5T-HC-Qt8">
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z5T-HC-Qt8">
                                 <rect key="frame" x="114" y="304" width="40" height="40"/>
                                 <state key="normal" image="right_normal"/>
                                 <connections>
-                                    <action selector="actionRigth" destination="BYZ-38-t0r" eventType="touchUpInside" id="ei1-Uw-KeN"/>
+                                    <action selector="move:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1RO-8u-EfF"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RWj-JY-sh0">
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RWj-JY-sh0">
                                 <rect key="frame" x="20" y="304" width="40" height="40"/>
                                 <state key="normal" image="left_normal"/>
                                 <connections>
-                                    <action selector="actionLeft" destination="BYZ-38-t0r" eventType="touchUpInside" id="Q59-o4-o0D"/>
+                                    <action selector="move:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Mi1-68-6Zr"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BdS-Q1-dVP">
