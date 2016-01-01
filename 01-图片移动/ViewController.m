@@ -9,6 +9,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UIButton *image;
 
 @end
 
@@ -16,12 +17,38 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+   
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+
+#pragma mark  上下左右移动
+
+- (IBAction)actionUp {
+    CGRect frame =  self.image.frame;
+    frame.origin.y -= 5;
+    self.image.frame = frame;
 }
+
+- (IBAction)actionDown {
+    CGRect frame =  self.image.frame;
+    frame.origin.y += 5;
+    self.image.frame = frame;
+
+}
+
+- (IBAction)actionLeft {
+    CGRect frame =  self.image.frame;
+    frame.origin.x -= 5;
+    self.image.frame = frame;
+
+}
+
+- (IBAction)actionRigth {
+    CGRect frame =  self.image.frame;
+    frame.origin.x += 5;
+    self.image.frame = frame;
+
+}
+
 
 @end

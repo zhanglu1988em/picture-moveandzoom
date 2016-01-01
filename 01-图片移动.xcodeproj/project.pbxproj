@@ -58,6 +58,7 @@
 		A64680F81C36AA3A002E4B02 /* 01-图片移动 */ = {
 			isa = PBXGroup;
 			children = (
+				A64681101C36AA48002E4B02 /* class */,
 				A64680FC1C36AA3A002E4B02 /* AppDelegate.h */,
 				A64680FD1C36AA3A002E4B02 /* AppDelegate.m */,
 				A64680FF1C36AA3A002E4B02 /* ViewController.h */,
@@ -77,6 +78,13 @@
 				A64680FA1C36AA3A002E4B02 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A64681101C36AA48002E4B02 /* class */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
